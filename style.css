@@ -2,6 +2,7 @@ body {
     /* color: white; */
     margin:0;
     background-color: #1F2937;
+    font-family: sans-serif;
 }
 
 .header{
@@ -94,4 +95,26 @@ body {
 .info {
     text-align: center;
     color: #696969;
+}
+
+.quote{
+    padding: 48px 280px;
+    /* width: 1080px; */
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: auto; */
+}
+
+.quote p{
+    margin: 0;
+}
+
+.quote h5{
+    margin: auto;
+
 }
