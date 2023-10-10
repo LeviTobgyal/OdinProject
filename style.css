@@ -100,7 +100,7 @@ body {
 }
 
 .quote{
-    padding: 48px 280px;
+    padding: 58px 320px;
     /* width: 1080px; */
     background-color: #E5E7EB;
     color: #1F2937;
@@ -117,8 +117,10 @@ body {
 }
 
 .quote h5{
-    margin: auto;
-
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .sign-up{
