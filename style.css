@@ -56,9 +56,11 @@ body {
     padding: 8px 18px;
     font-weight: bold;
 }
+
 .hero img{
     width: 560px;
 }
+
 .hero >.left{
     width: 480px;
 }
@@ -117,4 +119,50 @@ body {
 .quote h5{
     margin: auto;
 
+}
+
+.sign-up{
+    background-color: white;
+    padding: 48px 240px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.sign-up .content{
+    background-color: #3882F6;
+    padding: 28px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+.call-to-action h4, .call-to-action p{
+    margin:0;
+    padding:0;
+}
+.call-to-action h4{
+    font-size:20px;
+}
+
+.call-to-action p {
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.content button{
+    background-color: #3882F6;
+    padding: 6px 36px;
+    margin:0;
+    color: #F9FAF8;
+    border: 2px white solid;
+    border-radius: 4px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #F9FAF8;
 }
