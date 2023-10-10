@@ -1,5 +1,4 @@
 body {
-    /* color: white; */
     margin:0;
     background-color: #1F2937;
     font-family: sans-serif;
@@ -16,7 +15,6 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-bottom: 80px; */
 }
 
 .header-links{
@@ -75,10 +73,7 @@ body {
     display: flex;
     gap: 36px;
     align-items: center;
-    padding-bottom: 72px;
-
-    /* justify-content: space-between; */
-    
+    padding-bottom: 72px;    
 }
 
 .main h1{
@@ -101,15 +96,11 @@ body {
 
 .quote{
     padding: 58px 320px;
-    /* width: 1080px; */
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 32px;
     font-weight: 100;
     font-style: italic;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* margin: auto; */
 }
 
 .quote p{
@@ -129,6 +120,7 @@ body {
     font-size: 18px;
     color: #F9FAF8;
 }
+
 .sign-up .content{
     background-color: #3882F6;
     padding: 28px 100px;
@@ -138,10 +130,12 @@ body {
     align-items: center;
     
 }
+
 .call-to-action h4, .call-to-action p{
     margin:0;
     padding:0;
 }
+
 .call-to-action h4{
     font-size:20px;
 }
